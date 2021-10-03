@@ -4,89 +4,29 @@
     box-sizing: border-box;
     background-color: gray;
 }
-h1{
-    color: rgb(75, 20, 228);
-    text-align: center;
-    transition: .4s;
-}
-.section-one{
+.Nav{
     width: 100%;
-    height: 100vh;
-    padding-top: 220px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    background-image: url("myenglishjourney.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: white;
-    font-size: 1.4rem;
+    height: 70px;
+    background-color: black;
+}
+.section-one,.section-two,.section-three,.section-four,.section-five{
+    padding: 21px;
     font-family: 'Segoe UI';
     font-weight: bold;
-    line-height: 2rem;
-
+    font-size: 1.5rem;
     color: black;
-    
-}
-.section-two{
-padding-top: 32px;
-}
-.section-two, .section-three,.section-four{
-    font-size: 1rem;
-    font-family: 'Segoe UI', Tahoma;
-    font-weight: bold;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    margin:none;
-    color:black;
-    background-color:gray;
-    justify-content: center;
-    text-align: justify;
 
 }
-.section-four{
-    padding-bottom: 23px;
+ol{
+    padding-left: 22px;
+    color: chartreuse;
 }
-b{
-    color: indigo;
-    font-size: larger;
-    text-decoration: underline;
-    transition: .5s;
-}
-b:hover{
-    color: lawngreen;
-    font-size: 23px;
-}
-h1:hover{
-    color: yellow;
-    font-size: 22px;
-    
+.navbar {
+    margin-bottom: 0px;
 }
 @media(max-width:480px){
-    .section-one{
-        font-size: 1rem;
-        line-height: 1rem;
-        font-weight: normal;
-        height: 50vh;
-        color: rgb(25, 88, 9);
-        background-size: contain;
-     
-    }
-    .section-two,.section-thtee,.section-four{
-        color: indigo;
-        font-size: medium;
-        font-size: 16px;
-    }
-    h1{
-        width: 100%;
-        height: 33px;
-        font-size: 22px;
-        color: khaki;
-        justify-content: center;
-        text-align: center;
-
-    }
-    .padding{
-        margin-top:18px;
-        margin-bottom: 21px;
+   ol{
+      color: blue;
+      margin-left: 21px;
     }
 }
